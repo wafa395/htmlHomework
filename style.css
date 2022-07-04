@@ -1,0 +1,103 @@
+* {
+    decoration: none;
+}
+
+body {
+    background-color: #cfe1f1;
+}
+
+header.main-header {
+    background-color: #8AABCA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    padding-top: 5px;
+    ;
+    margin: 10px;
+}
+
+.navbar ul {
+    display: flex !important;
+    justify-content: space-around;
+    list-style: none;
+    width: 300px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.aside {
+    width: 200px;
+    height: 500px;
+    background-color: #b2cde6;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(207, 207, 207);
+    padding: auto;
+    
+}
+
+.banner {
+    color: white;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/banner-flowers.jpg') top left/cover no-repeat;
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .gallery{
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .gallery2 {
+    display: flex;
+    justify-content:space-between;
+  }
+.gal {
+    width: 100px;
+    height: 40px;
+    background-color: #777;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gal2{
+    width: 50%;
+    height: 80px;
+    background-color: #8AABCA;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #8AABCA;
+}
